@@ -1,0 +1,8 @@
+/ed_api_venv
+**/__pycache__/
+output.json
+pyproject.toml
+setup.cfg
+**/dist/
+**/env/
+**/*.egg-info/
