@@ -2,7 +2,7 @@ import requests
 import json
 from base64 import b64decode
 
-from ed_api.common import exceptions as ApiExceptions
+import EcoleDirecteWrapper.exceptions as ApiExceptions
 
 
 class EcoleDirecteAPIObject(object):

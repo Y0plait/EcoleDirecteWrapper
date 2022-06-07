@@ -1,6 +1,6 @@
 # EcoleDirecte-API
 
-![GitHub](https://img.shields.io/github/license/Y0plait/EcoleDirecte-API?style=flat-square)
+![GitHub](https://img.shields.io/github/license/Y0plait/EcoleDirecteWrapper?style=flat-square)
 ![Python version](https://img.shields.io/static/v1?label=Python%20version&message=%3C3.4&color=success)
 
 An API to use [Ecole Directe][Ed] in your python scripts.
@@ -8,14 +8,14 @@ An API to use [Ecole Directe][Ed] in your python scripts.
 #### 📌 *Installation :*
 
 Using pip:
-`pip install ed-api`
+`pip install EcoleDirecteWrapper`
 
 #### 📌 *Basic usage*
 
 ```python
-import edapi
+import EcoleDirecteWrapper
 
-student = edapi.api.Eleve()
+student = EcoleDirecteWrapper.Eleve()
 student.login('username','password')
 
 # Method to retrieve the homeworks for a specific day (date must be formatted as YYYY-MM-DD)
