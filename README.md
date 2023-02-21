@@ -1,3 +1,5 @@
+<h1 style="center">API not working anymore</h1>
+
 # EcoleDirecte-API
 
 ![GitHub](https://img.shields.io/github/license/Y0plait/EcoleDirecteWrapper?style=flat-square)
